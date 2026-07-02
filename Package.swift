@@ -13,9 +13,10 @@ let package = Package(
             name: "PipecatClientIOSTV",
             targets: ["PipecatClientIOSTV"]),
     ],
-    targets: [
+        targets: [
         .target(
-            name: "PipecatClientIOSTV"),
+            name: "PipecatClientIOSTV",
+            path: "Sources/PipecatClientIOS"),
         .testTarget(
             name: "PipecatClientIOSTests",
             dependencies: ["PipecatClientIOSTV"]),
